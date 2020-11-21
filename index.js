@@ -16,5 +16,7 @@ function reverseAns (){
 
 function yesss (){
     alert('I love u');
+    document.getElementById('music').play();
     document.getElementById('iloveyou').style.display = 'block';
+    window.scrollTo(0,document.body.scrollHeight);
 }
