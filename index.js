@@ -6,16 +6,10 @@ noOver.addEventListener('mouseover', reverseAns);
 yesOver.addEventListener('click', yesss);
 
 function reverseAns (){
-    if(answerBox[0].style.flexDirection === 'row-reverse'){
-        answerBox[0].style.flexDirection = 'row';
-    }
-    else {
-        answerBox[0].style.flexDirection = 'row-reverse';
-    }
+   answerBox[0].classList.toggle('row-reverse');
 }
 
 function yesss (){
-    alert('I love u');
     document.getElementById('music').play();
     document.getElementById('iloveyou').style.display = 'block';
     window.scrollTo(0,document.body.scrollHeight);
