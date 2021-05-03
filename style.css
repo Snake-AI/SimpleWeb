@@ -54,3 +54,12 @@
 .row-reverse {
     flex-direction: row-reverse;
 }
+
+a {
+    font-size: 2vw !important;
+    line-height: 1em;
+    display: inline-block;
+    text-decoration: none;
+    padding: 120px;
+    margin: 30px;
+}
