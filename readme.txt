@@ -1,5 +1,5 @@
 www.facebook.com
-GPU 
+GPU or CPU
 API -
 Truyen thong(Single page app) - HTML JS CSS
 Hien dai(Multiple page app) - API
